@@ -16,10 +16,6 @@
     transform:rotate (90deg);
 }
 
-@font-face {
-    font-family: "PressStart2P.ttf";
-    src: url(fonts/codeman38_press-start-2p/PressStart2P.ttf) format("truetype");
-}
-p.customfont { 
-    font-family: "PressStart2P.ttf",PressStart2P;
+.css-selector{
+font-family: 'VT323', monospace;
 }
