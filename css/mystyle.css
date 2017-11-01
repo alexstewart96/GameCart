@@ -17,9 +17,9 @@
 }
 
 @font-face {
-    font-family: "press start 2p";
+    font-family: "PressStart2P.ttf";
     src: url(https://www.dafont.com/press-start-2p.font) format("truetype");
 }
 p.customfont { 
-    font-family: "press start 2p",;
+    font-family: "PressStart2P.ttf",PressStart2P;
 }
