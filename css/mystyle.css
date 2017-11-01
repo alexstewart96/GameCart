@@ -23,3 +23,8 @@ font-family: 'VT323', monospace;
 p {
     font-size: 1.5em; /* 16px/16=1em */
 }
+
+
+/* .nav {
+  background-color: #ffffff !important;
+} if I want to change the navbar colour */
