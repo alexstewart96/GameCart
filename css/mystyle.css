@@ -15,3 +15,11 @@
     -ms-transform:rotate (90deg);
     transform:rotate (90deg);
 }
+
+@font-face {
+    font-family: "press start 2p";
+    src: url(https://www.dafont.com/press-start-2p.font) format("truetype");
+}
+p.customfont { 
+    font-family: "press start 2p",;
+}
