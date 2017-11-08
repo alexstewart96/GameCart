@@ -30,3 +30,31 @@ p {
 } if I want to change the navbar colour */
 
 /* $ ( document ).ready(function(){}) */
+
+  #tv_container { 
+    width: 400px;               /* Adjust TV image width */
+    height: 300px;              /* Adjust TV image height */
+    position: relative; 
+}
+#tv_container:after {
+    content: '';
+    display: block;
+    background: url('images/tv.png') no-repeat top left transparent;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    pointer-events:none;
+    z-index: 10;
+}
+#tv_container video {
+    position: absolute;
+    top: 30px; /* Adjust top position */
+    left: 40px; /* Adjust left position */
+    pointer-events:none;
+    z-index: 5;
+}
+
+
+
