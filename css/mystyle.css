@@ -31,11 +31,11 @@ p {
 
 /* $ ( document ).ready(function(){}) */
 
-  #tv { 
-    width: 400px;               /* Adjust TV image width */
-    height: 300px;              /* Adjust TV image height */
+  /* #tv { 
+    width: 400px;               
+    height: 300px;              
     position: relative; 
-}
+/* }
 #tv:after {
     content: '';
     display: block;
@@ -50,11 +50,19 @@ p {
 }
 #tv video {
     position: absolute;
-    top: 30px; /* Adjust top position */
-    left: 40px; /* Adjust left position */
+    top: 30px; 
+    left: 40px; 
     pointer-events:none;
     z-index: 5;
-}
+}*/
 
+.film-background {
+   z-index: -1;
+   position: absolute;
+   top: 0;
+   left: 0;
+   pointer-events:none;
+   width: 100%;
+}
 
 
