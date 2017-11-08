@@ -31,12 +31,12 @@ p {
 
 /* $ ( document ).ready(function(){}) */
 
-  #tv_container { 
+  #tv { 
     width: 400px;               /* Adjust TV image width */
     height: 300px;              /* Adjust TV image height */
     position: relative; 
 }
-#tv_container:after {
+#tv:after {
     content: '';
     display: block;
     background: url('images/tv.png') no-repeat top left transparent;
@@ -48,7 +48,7 @@ p {
     pointer-events:none;
     z-index: 10;
 }
-#tv_container video {
+#tv video {
     position: absolute;
     top: 30px; /* Adjust top position */
     left: 40px; /* Adjust left position */
