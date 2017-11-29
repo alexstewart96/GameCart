@@ -17,7 +17,7 @@
 }
         /* font */
 .css-selector{
-font-family: 'VT323', monospace;
+font-family: 'VT323', roboto,monospace;
 }
    /* font size */
 p {
@@ -25,44 +25,17 @@ p {
 }
 
 
-/* .nav {
-  background-color: #ffffff !important;
-} if I want to change the navbar colour */
-
-/* $ ( document ).ready(function(){}) */
-
-  /* #tv { 
-    width: 400px;               
-    height: 300px;              
-    position: relative; 
-/* }
-#tv:after {
-    content: '';
-    display: block;
-    background: url('images/tv.png') no-repeat top left transparent;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    pointer-events:none;
-    z-index: 10;
-}
-#tv video {
-    position: absolute;
-    top: 30px; 
-    left: 40px; 
-    pointer-events:none;
-    z-index: 5;
-}*/
-
-.film-background {
-   z-index: -1;
-   position: absolute;
-   top: 0;
-   left: 0;
-   pointer-events:none;
-   width: 100%;
-}
 
 
+
+
+
+header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 999px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
