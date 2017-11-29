@@ -21,42 +21,42 @@
  <nav>
     <div class="nav-wrapper">
       <a href="index.html" class="brand-logo">GameCart</a>
-        <a href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-         <li class="dropdown">
-           <a href="console.html" class="dropdown-toggle" data-toggle="dropdown">Consoles <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                         <li> <a href="magnavox.html">TheFirstConsole</a></li>
-                            <li> <a href="atari2600.html">Atari2600 the big beginning</a></li>
-                            <li> <a href="nes.html">NES the revolutionary console</a></li>
-                            <li> <a href="snesvmega.html">Snes vs MegaDrive the first big console battle</a></li>
-                            <li> <a href="n64vpsone.html">N64 vs PSone cartridge vs disc</a></li>
-                            <li> <a href="xboxvgamecubevps2.html">Xbox gamecube and PS2 the begining of the modern era</a></li> 
-                            </ul>
-                    </li>
-        <li><a href="advice.html">Advice</a></li>
-      </ul>
-        
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-          <li class="dropdown">
-           <a href="console.html" class="dropdown-toggle" data-toggle="dropdown">Consoles <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                         <li> <a href="magnavox.html">TheFirstConsole</a></li>
-                            <li> <a href="atari2600.html">Atari2600 the big beginning</a></li>
-                            <li> <a href="nes.html">NES the revolutionary console</a></li>
-                            <li> <a href="snesvmega.html">Snes vs MegaDrive the first big console battle</a></li>
-                            <li> <a href="n64vpsone.html">N64 vs PSone cartridge vs disc</a></li>
-                            <li> <a href="xboxvgamecubevps2.html">Xbox gamecube and PS2 the begining of the modern era</a></li>
-                            </ul>
-                    </li>
-        <li><a href="advice.html">Advice</a></li>
-      </ul>
-    </div>
-  </nav>
+       <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="magnavox.html">TheFirstConsole</a></li>
+            <li class="divider"></li>
+            <li><a href="atari2600.html">Atari2600 the big beginning</a></li>
+            <li class="divider"></li>
+            <li><a href="nes.html">NES the revolutionary console</a></li>
+            <li class="divider"></li>
+            <li> <a href="snesvmega.html">Snes vs MegaDrive the first big console battle</a></li>
+            <li class="divider"></li>
+            <li> <a href="n64vpsone.html">N64 vs PSone cartridge vs disc</a></li>
+            <li class="divider"></li>
+            <li> <a href="xboxvgamecubevps2.html">Xbox gamecube and PS2 the begining of the modern era</a></li>
+        </ul>
+
+   <ul id="dropdown2" class="dropdown-content">
+        <li><a href="index.html">Home</a></li>
+               <li class="divider"></li>      
+                    <li><a href="about.html">About</a></li>
+                     <li class="divider"></li>
+                    <li><a href="advice.html">Advice</a></li>
+                     <li class="divider"></li>
+                    <li> <a href="events.html">Events</a></li>
+                     <li class="divider"></li>
+    </ul>
+        <!--nav bar START-->
+         <div class="navbar-fixed">
+             <nav  class="nav-extended">
+            
+               <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo"> <div style="font-family: 'VT323', serif;">GameCart</a></div>
+                <a class="dropdown-button" href="index.html" data-activates="dropdown2"><i class="material-icons right">arrow_drop_down</i></a>
+                
+               <a class="dropdown-button" href="console.html" data-activates="dropdown1"><i class="material-icons right">arrow_drop_down</i></a>
+                </ul>
             </header>
         
         
